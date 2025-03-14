@@ -119,21 +119,31 @@ div h3{
     .box-grid_1-1{
         flex-direction: column;
         justify-content: space-between;
+        height: 665px;
     }
     .venusbox-grid_1-1 h2{
         padding: 2em;
+    }
+    .venusbox-grid_1-1{
+        height: 665px;;
     }
     .box2-grid_1-1{
         flex-direction: column;
         justify-content: space-between;
         width: 260px;
+        height: 506px;
+    }
+    .box2-grid_1-1 h2{
+        padding-top: 1px;
     }
     .box2-2-grid_1-1 h2{
-        padding: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
     .box2-2-grid_1-1{
         justify-content: space-between;
         width: 260px;
+        height: 506px;
     }
     .rolegrid_1-1-1{
         display: grid;
@@ -155,6 +165,7 @@ div h3{
     .undersite23grid_1-1-1 h1{
         font-size: 50px;
         grid-column: span 2;
+        margin-top: 1em;
     }
     .undersite23grid_1-1-1 p{
         grid-column: span 2;

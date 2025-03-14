@@ -7,32 +7,40 @@
     <link
       rel="icon"
       type="image/png"
-      href="/img/favicon/favicon-96x96.png"
+      href="img/favicon/favicon-96x96.png"
       sizes="96x96"
     />
-    <link rel="icon" type="image/svg+xml" href="/img/favicon/favicon.ico" />
-    <link rel="shortcut icon" href="/img/favicon/favicon.ico" />
+    <link rel="icon" type="image/svg+xml" href="img/favicon/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/img/favicon/apple-touch-icon.png"
+      href="img/favicon/apple-touch-icon.png"
     />
     <meta name="apple-mobile-web-app-title" content="MyWebSite" />
-    <link rel="manifest" href="/img/favicon/site.webmanifest" />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/generel.css" />
-    <title>Antikkens Kvinder</title>
+    <title>ANTIKKENS KVINDER</title>
   </head>
   <body>
     <header>
+      <div class="logo">
+        <a href="index.html">KIA</a>
+      </div>
       <nav>
-        <ul>
+        <ul class="menu">
           <li><a href="index.html">FORSIDE</a></li>
           <li><a href="rollen.html">KVINDENS ROLLE</a></li>
           <li><a href="eftertiden.html">EFTERTIDEN</a></li>
           <li><a href="tolkning.html">TOLKNINGER</a></li>
           <li><a href="artikel.html">MERE VIDEN</a></li>
         </ul>
+        <div class="burger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
       </nav>
     </header>
     <main>
@@ -77,16 +85,18 @@
           </figure>
           <h2>KVINDENS STEMME GENNEM TIDEN</h2>
         </div>
-        <div class="box2-grid_1-1">
-          <figure>
-            <img
-              src="img/achilleusajax.webp"
-              alt="keramik. Amphora med sorte figurer. På halsen er dobbelthåndtag, under håndtagene er spiralmønstre, under disse er maeander og lotusskud. Forestiller Achilleus og Ajax, som spiller med pessi. Til højre sidder Achilleus med skæg og krøllet hår, robe og en høj hjelm. Højre hånd er løftet, i venstre hånd er to spyd. Til venstre sidder Ajax, med skæg, krøllet hår, hjelm og skjold, med front mod Achilleus. I venstre hånd har han 2 spyd, som han er ved at rykke brikker på spillebrættet med."
-            />
-            <figcaption>© THE TRUSTEES OF THE BRITISH MUSEUM</figcaption>
-          </figure>
-          <h2>KVINDENS ROLLE I SAMFUNDET</h2>
-        </div>
+        <a href="artikel.html">
+          <div class="box2-grid_1-1">
+            <figure>
+              <img
+                src="img/achilleusajax.webp"
+                alt="keramik. Amphora med sorte figurer. På halsen er dobbelthåndtag, under håndtagene er spiralmønstre, under disse er maeander og lotusskud. Forestiller Achilleus og Ajax, som spiller med pessi. Til højre sidder Achilleus med skæg og krøllet hår, robe og en høj hjelm. Højre hånd er løftet, i venstre hånd er to spyd. Til venstre sidder Ajax, med skæg, krøllet hår, hjelm og skjold, med front mod Achilleus. I venstre hånd har han 2 spyd, som han er ved at rykke brikker på spillebrættet med."
+              />
+              <figcaption>© THE TRUSTEES OF THE BRITISH MUSEUM</figcaption>
+            </figure>
+            <h2>KVINDENS ROLLE I SAMFUNDET</h2>
+          </div>
+        </a>
       </section>
       <aside>
         <h3>VIDSTE DU AT...</h3>
@@ -125,5 +135,6 @@
         </p>
       </section>
     </footer>
+    <script src="menu.js"></script>
   </body>
 </html>
